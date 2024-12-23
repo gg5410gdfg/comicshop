@@ -26,5 +26,8 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
 
 *.tsbuildinfo
+=======
+>>>>>>> 91322e00fc1f4d1cd8c4642de5d38495b70d4b5c
