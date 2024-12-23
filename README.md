@@ -35,7 +35,7 @@
 * Mssql資料庫匯入
 執行資料夾內的createSql.sql生成資料庫格式與初始資料
 
-* 將資料夾放至c:\下,Spring IDE匯入import ComicStore(專案)
+* 將資料夾放至c:\下,最外層資料夾改名成bookstore,Spring IDE匯入import ComicStore(專案)
 application.properties(修改username與password)
 啟動ComicStore(埠號8080)
 
