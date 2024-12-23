@@ -35,7 +35,23 @@
 * Mssql資料庫匯入
 執行資料夾內的createSql.sql生成資料庫格式與初始資料
 
-* 將資料夾放至c:\下,最外層資料夾改名成bookstore,Spring IDE匯入import ComicStore(專案)
+* 將資料夾放至c:\下,Spring IDE匯入import ComicStore(專案)
+無法匯入需開啟新的spring starter project
+* type:maven packaging:jar java version:17
+    * group:com.store
+    * artifact:ComicStore
+    * version:0.0.1-SNAPSHOT
+    * description:Demo project for Spring Boot
+    * package:com.store.comic
+* depencies
+    * graalvm native support
+    * lombok
+    * ms sql server driver
+    * spring boot devtools
+    * spring configuration processor
+    * spring data jpa
+    * spring web
+將下載的檔案中的src/mmain/java下檔案放到新檔案對應位置
 application.properties(修改username與password)
 啟動ComicStore(埠號8080)
 
